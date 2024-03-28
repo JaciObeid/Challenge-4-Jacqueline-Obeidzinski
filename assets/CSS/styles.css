@@ -1,0 +1,6 @@
+section{
+    display: inline-flex ;
+    max-width: 50%;
+    border: black 5px dashed;
+    margin: 4px;
+}
