@@ -25,6 +25,6 @@ function saveUserImput(){
 submitButton.addEventListener("click", function(event){
    event.preventDefault();
    saveUserImput();
-   window.location = "/blog.html"
+   window.location = "./blog.html"
 });
 
