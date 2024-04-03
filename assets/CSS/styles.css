@@ -1,6 +1,33 @@
-section{
-    display: inline-flex ;
-    max-width: 50%;
-    border: black 5px dashed;
-    margin: 4px;
+:root{
+    --clr-dark:black;
+    --clr-light:white;
+}
+.dark-mode{
+    --clr-light:black;
+    --clr-dark:white;
+}
+body{
+    background-color:var(--clr-light);
+    color:var(--clr-dark);
+}
+header{
+    display: inline-block;
+    font-weight: bold;
+    width: 100%;
+    font-size: 30px;
+    height: 50px;
+    border-bottom: var(--clr-dark) 5px solid;
+    padding: 6px;
+    height: 50px;
+}
+#darkness{
+    background-color: white;
+    color: var(--clr-light);
+    float: right;
+    height: 40px;
+    padding: 10px;
+    margin-left: 10px;
+}
+img{
+    width: 20px;
 }
